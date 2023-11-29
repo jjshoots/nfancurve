@@ -19,7 +19,7 @@
     ```sh
     [Unit]
     Description=GPU Fan Control
-    After=default.target
+    After=graphical-session.target
 
     [Service]
     User=jet
@@ -31,7 +31,7 @@
     RestartSec=30s
 
     [Install]
-    WantedBy=default.target
+    WantedBy=graphical-session.target
     ```
 
 nfancurve
