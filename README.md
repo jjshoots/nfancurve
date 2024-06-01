@@ -4,7 +4,7 @@
 
 1. Setup [xorg config](https://askubuntu.com/questions/1293290/setting-the-coolbits-in-20-04-without-blowing-x):
     ```sh
-    sudo nvidia-xconfig -a --coolbits=16 --allow-empty-initial-configuration`.
+    sudo nvidia-xconfig -a --cool-bits=16 --allow-empty-initial-configuration
     ```
 2. Enable root for X11(?), make the file `/etc/X11/Xwrapper.config`:
     ```sh
