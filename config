@@ -3,8 +3,8 @@
 #  first speed in fcurve is (default of 25%)
 # min_t2 is only used with the second fan speed and temperature arrays, so
 #  there is no need to change it unless you're using the second curve
-min_t="25"
-min_t2="25"
+min_t="38"
+min_t2="38"
 
 # How many seconds the script should wait until checking for a change in temps
 sleep_time="7"
