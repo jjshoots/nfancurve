@@ -44,7 +44,7 @@ default_fan="0"
 
 # On some GPUs, setting 0% fan speed doesn't necessarily mean the fans spin down.
 #  Enabling this means that fan speed control is disabled when 0 fan speed is commanded.
-#  Potentially allowing fan speeds to be set to 0
+#  Potentially allowing fan speeds to be set to 0.
 hardware_zero_fan="1"
 
 # Similar to which_curve, but instead lets the script know which of the GPU's
