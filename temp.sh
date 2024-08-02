@@ -175,7 +175,6 @@ loop_cmds() {
 			done
 			tdiff="0"
 		fi
-	fi
 	if [ "$debug" -eq "1" ]; then
 		echo_info
 	fi
